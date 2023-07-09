@@ -1,0 +1,263 @@
+
+body #menu-toggle {
+	top: 0px;
+	right: 20px;
+}
+.jumbotron {
+	background: #532F8C;
+	color: white;
+	padding-bottom: 80px;
+}
+
+.jumbotron .btn-primary {
+	background: #845ac7;
+	border-color: #845ac7;
+}
+
+.jumbotron .btn-primary:hover {
+	background: #7646c1;
+}
+
+.jumbotron p {
+	color: #d9ccee;
+	max-width: 75%;
+	margin: 1em auto 2em;
+}
+
+.navbar+.jumbotron {
+	margin-top: -20px;
+}
+
+.jumbotron .lang-logo {
+	display: block;
+	background: #B01302;
+	border-radius: 50%;
+	overflow: hidden;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	border: 2px solid white;
+}
+
+.jumbotron .lang-logo img {
+	max-width: 100%;
+}
+
+h2, h4 {
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  background: #313331;
+    padding: 1%;
+    color: white;
+}
+
+.service-item ul li {
+  font-family: 'Overpass Mono', sans-serif;
+}
+
+.slider-for, .gallery {
+  padding-bottom: 0px!important;
+}
+.slick-dotted.slick-slider {
+  margin-bottom: 50px;
+}
+
+.gallery {
+  padding-top: 20px!important;
+}
+.slider-for a {
+  display: block!important;
+}
+ 
+.row-eq-height .service-item{
+  color: white;
+  /* padding: 0px; */
+	font-size: 16px;
+	margin: 1px !important;
+	/* padding: 15px!important;
+	border-bottom: solid 2px white; */
+	background: #95bd1a;
+	height: calc(100% - 2px);
+}
+
+.bg-white {
+  background: white;
+}
+
+.services {
+  padding-top: 20px!important;
+}
+
+hr.small {
+  background: transparent!important;
+  border: 0px !important;
+}
+
+.slider-for .portfolio-item {
+  margin-bottom: 0px!important;
+}
+
+.slider-for.portfolio {
+  padding-top: 0px!important;
+}
+
+.slider-for.slick-initialized.slick-slider {
+  background: rgb(149, 189, 26)!important;
+}
+
+iframe {
+  background: #000000ad;
+}
+
+#top .hr_search_box_container {
+  margin-top: 10px;
+}
+
+/* F2B styles - NOT USED */
+
+/* #f2b-widget {
+	display: inline-block;
+}
+
+#f2b-widget .label,
+#f2b-widget strong {
+	color: white;
+}
+
+#f2b-widget #duration .label {
+	display: inline-block;
+}
+
+#top #f2b-widget .searchButton {
+	background-image: url(http://www.pearwoods.com/img/booknow.jpg) !important;
+	background-size: contain;
+	background-repeat: no-repeat;
+} */
+
+ul.starbursts {
+	list-style:none;
+	margin:20px 0;
+	padding:0;
+	overflow:hidden;
+}
+ul.starbursts li {
+	float:left;
+	width:10em;
+	height:10em;
+	position:relative;
+}
+ul.starbursts * {
+	margin:0;
+	padding:0;
+	line-height:1.2em;
+}
+
+.btn-primary {
+	background-color: #ff6909;
+	border-color: #ff8d00;
+}
+
+.btn-primary:active, .btn-primary:hover {
+	background-color: #ff6a00!important;
+	border-color: #ff6a00!important;
+}
+
+.btn.book-now {
+	margin: 10px 0 0 20px;
+}
+/* Starburst 2 */
+.starburst2 {
+	display:block;
+	width:6em;
+	height:6em;
+	background:#ff6409;
+	-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	rotation:-45deg;
+	position:relative;
+  margin-top: 20px;
+  margin-left: 20px;
+	text-align:center;
+	text-decoration:none;
+	color:#000;
+	font-weight:bold;
+	font-family:Arial, sans-serif;
+	text-shadow:0 0 3em #c8ff00, 0 0 4px #fffb00;
+	-moz-transition: -moz-transform 0.3s ease;
+	-webkit-transition: -webkit-transform 0.3s ease;
+	transition: transform 0.3s ease;
+}
+.starburst2 span {
+	display:none;
+	width:6em;
+	height:6em;
+	background:#fe0;
+	-webkit-transform:rotate(22.5deg);
+	-moz-transform:rotate(22.5deg);
+	rotation:22.5deg;
+}
+.starburst2:hover,
+.starburst2:hover span {
+	color:#000; 
+	/* text-shadow:0 0 20px #fff, 0 0 8px #fff; */
+}
+
+.starburst2:hover span {
+	display: block;
+	background: #95bd1a;
+}
+.starburst2:hover {
+	-webkit-transform:rotate(315deg);
+	-moz-transform:rotate(315deg);
+	rotation:315deg;
+}
+
+/* Cab table */
+.table-container table {
+	width: 100%;
+}
+#tour-fare {
+	margin-top: 40px;
+}
+.pickup-point {
+	border-top: 1px solid #999; 
+	border-bottom: 1px solid #999; 
+	border-left: 1px solid #999; 
+	border-right: 1px solid #999;
+}
+
+.pickup-header-cell {
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999; 
+	border-left: 1px solid #999; 
+	border-right: 1px solid #999;
+	font-weight: 600;
+	padding: 7px 5px;
+}
+
+.cab-row-cell {
+	border-top: 1px solid #999; 
+	border-bottom: 1px solid #999; 
+	border-left: 1px solid #999; 
+	border-right: 1px solid #999;
+	padding: 2px 5px;
+}
+
+section.map {
+	padding-bottom: 50px;
+}
+
+p.highlight {
+	background: #95bd1a;
+	color: white;
+	font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+	.table-container {
+		max-width: 500px;
+		overflow: auto;
+	}
+}

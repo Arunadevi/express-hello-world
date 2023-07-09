@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="hotel accomodation kodaikanal stay reserve book">
+    <meta name="author" content="">
+    <meta name="google-site-verification" content="cukqk7siJY3OFiOC9ubtCGO564wbwIGoHGL1WAL7hdk" />
+    <META NAME="geo.region" CONTENT="India TamilNadu Kodaikanal">
+    <meta name="google-site-verification" content="4tr9_9ZR8C1RNHrgAuBxWB_4xA4HM8uoJEjpwpqHgxw" />
+    <title>Pearwoods</title>
+	<link href="img/favicon.ico" rel="icon">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="js/slick-1.8.0/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="js/slick-1.8.0/slick/slick-theme.css"/>
+    
+    <%- include ("../partials/imports.ejs") %>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = '$("#menu-close").click();' >Home</a>
+            </li>
+            <li>
+                <a href="#rooms" onclick = '$("#menu-close").click();' >Rooms</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick = '$("#menu-close").click();' >Gallery</a>
+            </li>
+            <li>
+                <a href="#map" onclick = '$("#menu-close").click();' >Map</a>
+            </li>
+            <li>
+                <a href="#birds" onclick = '$("#menu-close").click();' >Birds at Pearwoods</a>
+            </li>
+            <li>
+                <a href="#cab" onclick = '$("#menu-close").click();' >Cab fare</a>
+            </li>
+            <li>
+                <a href="#contact" onclick = '$("#menu-close").click();' >Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <%- include ("../partials/header.ejs") %>
+    <%- include ("../partials/services.ejs") %>
+    <%- include ("../partials/portfolio.ejs") %>
+    <%- include ("../partials/birds.ejs") %>
+    
+    <!-- Map -->
+    <section id="map" class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.1045889175616!2d77.50401821434518!3d10.253148092677842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0766f1f64912df%3A0x476e5a12a1c9bca4!2sPearwoods!5e0!3m2!1sen!2sin!4v1521645721965" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </section>
+
+    <%- include ("../partials/cab.ejs") %>
+
+    <%- include ("../partials/footer.ejs") %>
+
+    Pear graphic by <a href="http://picol.org">Picol</a> from <a href="http://www.flaticon.com/">Flaticon</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. Made with <a href="http://logomakr.com" title="Logo Maker">Logo Maker</a>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/slick-1.8.0/slick/slick.min.js"></script>
+    <script src="js/blogLoader.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
